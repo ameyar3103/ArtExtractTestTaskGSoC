@@ -25,3 +25,41 @@ For running part 1, wikiart.zip must be extracted in the Task1 directory, wikiar
 A report for each task is added involving the methodologies, results for that task.
 
 **Note: Some outputs of the jupyter notebook may show kernel crashes, that is because a kill was sent to the process to clear the memory used by that process on the GPU. The code works as expected. In some training processes, the validation error showed no further decrease after 2-3 epochs as well. The training was stopped in such scenarios by keyboard interrupts.**
+
+## Directory structure
+
+```
+.
+├── README.md
+├── Task1
+│   ├── artist_class_eval_effnet.ipynb
+│   ├── artist_class_eval_effnet.pdf
+│   ├── artist_class_eval.ipynb
+│   ├── artist_class_eval.pdf
+│   ├── conv-recur_artist.ipynb
+│   ├── conv-recur_artist.pdf
+│   ├── conv-recur_genre.ipynb
+│   ├── conv-recur_genre.pdf
+│   ├── conv-recur_style.ipynb
+│   ├── conv-recur_style.pdf
+│   ├── effnet_rcnn_artist.ipynb
+│   ├── effnet_rcnn_artist.pdf
+│   ├── effnet_rcnn_genre.ipynb
+│   ├── effnet_rcnn_genre.pdf
+│   ├── effnet_rcnn_style.ipynb
+│   ├── effnet_rcnn_style.pdf
+│   ├── genre_class_eval_effnet.ipynb
+│   ├── genre_class_eval_effnet.pdf
+│   ├── genre_class_eval.ipynb
+│   ├── genre_class_eval.pdf
+│   ├── style_class_eval_effnet.ipynb
+│   ├── style_class_eval_effnet.pdf
+│   ├── style_class_eval.ipynb
+│   ├── style_class_eval.pdf
+│   └── Task1 Report.pdf
+└── Task2
+    ├── similarity.ipynb
+    ├── similarity.pdf
+    └── Task2 Report.pdf
+
+```
